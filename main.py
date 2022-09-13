@@ -1,5 +1,6 @@
 import streamlit as st
 from coingecko.api import get_token_history
+import pandas as pd
 
 doge_coin_df = get_token_history(
     id='dogecoin',
